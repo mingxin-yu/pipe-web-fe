@@ -6,15 +6,6 @@ import './index.css';
 const { Title } = Typography;
 const { TextArea } = Input;
 
-interface ProjectDetailProps {
-  projectId?: string;
-  name?: string;
-  description?: string;
-  owner?: number | null;
-  revitDocumentCreationGuid?: string | null;
-  isActive?: boolean;
-}
-
 const ProjectDetail = () => {
   const [form] = Form.useForm();
   const navigate = useNavigate();

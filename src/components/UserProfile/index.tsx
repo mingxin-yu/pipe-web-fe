@@ -1,6 +1,4 @@
-import { useState } from 'react';
 import { Form, Input, Button, Space, Typography, Row, Col } from 'antd';
-import { UserOutlined } from '@ant-design/icons';
 import './index.css';
 
 const { Title } = Typography;
