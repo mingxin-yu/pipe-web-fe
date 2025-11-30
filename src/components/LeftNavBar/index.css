@@ -1,0 +1,58 @@
+.left-nav-sider {
+  background: #fafbfc !important;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.08);
+}
+
+.left-nav-sider .ant-menu {
+  background: #fafbfc !important;
+  border-right: none;
+  padding: 16px 8px;
+}
+
+.left-nav-sider .ant-menu-item {
+  border-radius: 8px;
+  margin: 4px 0;
+  height: 48px;
+  line-height: 48px;
+  transition: all 0.3s ease;
+}
+
+.left-nav-sider .ant-menu-item:hover {
+  background: linear-gradient(90deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+  color: #667eea;
+}
+
+.left-nav-sider .ant-menu-item-selected {
+  background: linear-gradient(90deg, rgba(102, 126, 234, 0.15) 0%, rgba(118, 75, 162, 0.15) 100%);
+  color: #667eea;
+  font-weight: 600;
+}
+
+.left-nav-sider .ant-menu-item-selected::after {
+  display: none;
+}
+
+.left-nav-sider .ant-menu-submenu-title {
+  border-radius: 8px;
+  margin: 4px 0;
+  height: 48px;
+  line-height: 48px;
+  transition: all 0.3s ease;
+}
+
+.left-nav-sider .ant-menu-submenu-title:hover {
+  background: linear-gradient(90deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+  color: #667eea;
+}
+
+.left-nav-sider .ant-menu-sub {
+  background: #f5f6f7;
+  border-radius: 8px;
+  margin: 4px 0;
+}
+
+.left-nav-sider .ant-menu-sub .ant-menu-item {
+  padding-left: 48px !important;
+  height: 44px;
+  line-height: 44px;
+}
